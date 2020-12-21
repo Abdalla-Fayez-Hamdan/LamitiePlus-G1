@@ -1,0 +1,702 @@
+body {
+  background: #ffffff;
+  /* user-select: none; */
+  overflow: visible;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Chrome/Safari/Opera */
+  -khtml-user-select: none; /* Konqueror */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by any browser but < IE9 */
+}
+
+.backBtn {
+  position: absolute;
+  left: 450px;
+  top: 620px;
+  width: 52px;
+  height: 50px;
+  background-image: url("../images/footer/left.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.nextBtn {
+  position: absolute;
+  left: 520px;
+  top: 620px;
+  width: 52px;
+  height: 50px;
+  background-image: url("../images/footer/right.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+.slides {
+  position: absolute;
+  left: 0px;
+  top: 120px;
+  width: 1024px;
+  height: 600px;
+  text-align: center;
+}
+.slide {
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+.activity_controls {
+  position: absolute;
+  bottom: 91px;
+  height: 60px;
+  width: auto;
+  left: 10px;
+  z-index: 20;
+  display: none;
+}
+.activity_controls .ccss {
+  position: absolute;
+  top: 0;
+  background-image: url("../images/pages/activities/ccss.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+.activity_controls .link {
+  position: absolute;
+  top: 0;
+  background-image: url("../images/pages/activities/link.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+.activity_controls .tips {
+  position: absolute;
+  top: 0;
+  background-image: url("../images/pages/activities/tips.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.activity_controls .homework {
+  position: absolute;
+  top: 0;
+  background-image: url("../images/pages/activities/homework.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+.activityCtrlPanel {
+  position: absolute;
+  left: 10px;
+  bottom: 0;
+  width: 420px;
+  height: auto;
+  z-index: 25;
+  display: none;
+}
+.ctrlPanelHead {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 422px;
+  height: 60px;
+  background-color: #0f89ca;
+}
+.ctrlIcon {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 90px;
+  height: 50px;
+}
+.ctrlTitle {
+  position: absolute;
+  left: 70px;
+  font-family: Arcon;
+  font-size: 32px;
+  color: black;
+  letter-spacing: 1px;
+  top: 10px;
+  font-weight: bold;
+}
+.icon_ccss {
+  background-image: url("../images/pages/activities/ccss.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 50px;
+}
+.icon_link {
+  background-image: url("../images/pages/activities/link.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 50px;
+}
+.icon_homework {
+  background-image: url("../images/pages/activities/homework.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 50px;
+}
+.icon_tips {
+  background-image: url("../images/pages/activities/tips.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: white;
+  border: 1px solid gray;
+}
+.ctrlClose {
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  background-color: #ffffff;
+  padding: 8px 10px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px #000000;
+  width: 10px;
+  height: 14px;
+  text-align: center;
+  cursor: pointer;
+}
+.ctrlPanelBody {
+  position: absolute;
+  left: 0;
+  top: 60px;
+  padding: 10px 0;
+  background-color: #d3d3d3;
+  height: auto;
+  width: 100%;
+  border: 1px solid;
+  border-color: #0f89ca;
+  background-color: White;
+}
+.ctrlContent {
+  padding: 0 10px;
+  font-family: avantgardeitcbybt-Book;
+}
+.smileyIcon {
+  position: absolute;
+  left: 100px;
+  top: 15px;
+  width: 38px;
+  height: 34px;
+  background-image: url("../images/pages/activities/smiley_icon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.handIcon {
+  position: absolute;
+  left: 90px;
+  top: 8px;
+  width: 44px;
+  height: 44px;
+  background-image: url("../images/hand_icon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.mouseIcon {
+  position: absolute;
+  left: 90px;
+  top: 8px;
+  width: 44px;
+  height: 44px;
+  background-image: url("../images/muse_icon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.keyIcon {
+  position: absolute;
+  left: 90px;
+  top: 8px;
+  width: 44px;
+  height: 44px;
+  background-image: url("../images/key_icon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.activityHeading {
+  position: absolute;
+  left: 150px;
+  top: 10px;
+  font-family: Gothic;
+  font-size: 34px;
+}
+.activityQuestion {
+  position: absolute;
+  left: 150px;
+  top: 75px;
+  font-family: Arcon;
+  font-size: 38px;
+  color: rgb(13, 137, 202);
+}
+.roundRect {
+  position: absolute;
+  left: 150px;
+  top: 150px;
+  width: 300px;
+  height: 300px;
+  border-radius: 10%;
+  border: 2px solid transparent;
+}
+.roundRect.selected {
+  border: 2px solid rgb(13, 137, 202);
+}
+
+.circle {
+  position: absolute;
+  left: 150px;
+  top: 150px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+.circle.selected {
+  border: 2px solid rgb(13, 137, 202);
+}
+.contentHolder {
+  padding-top: 25px;
+  font-family: Arcon;
+  font-size: 38px;
+  letter-spacing: 1px;
+}
+.audioIcon {
+  position: absolute;
+  left: 300px;
+  top: 250px;
+  width: 41px;
+  height: 40px;
+  cursor: pointer;
+}
+.audioIcon.off {
+  background-image: url("../images/soundMe.PNG");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.audioIcon.on {
+  background-image: url("../images/soundMe.PNG");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.audioBox {
+  cursor: pointer;
+}
+/****************** mcq styles - starts here *******************/
+.pick {
+  position: absolute;
+  width: fit-content;
+  border-radius: 10%;
+  border: 2px solid transparent;
+}
+.pick.selected {
+  border: 2px solid rgb(13, 137, 202);
+}
+.checkBtn {
+  position: absolute;
+  right: 80px;
+  top: 620px;
+  width: 52px;
+  height: 50px;
+  background-image: url("../images/click_btn.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.resetBtn {
+  position: absolute;
+  right: 15px;
+  top: 620px;
+  width: 52px;
+  height: 50px;
+  background-image: url("../images/reset_btn.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.tick {
+  position: absolute;
+  right: -55px;
+  top: -20px;
+  width: 52px;
+  height: 50px;
+  background-image: url("../images/check_btn.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.cross {
+  position: absolute;
+  right: -55px;
+  top: -20px;
+  width: 52px;
+  height: 50px;
+  background-image: url("../images/cross_btn.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.feedback {
+  position: absolute;
+  left: 0px;
+  top: 90px;
+  width: 1024px;
+  height: 600px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 30;
+  margin: auto;
+  font-family: Gothic;
+  display: none;
+}
+.goodJob,
+.tryAgain {
+  position: absolute;
+  width: fit-content;
+  padding: 25px;
+  top: 110px;
+  left: 274px;
+  border: 6px solid #9c8769;
+  border-radius: 10px;
+  background-color: white;
+  width: 440px;
+  height: 364px;
+  overflow: hidden;
+}
+.feedbackText {
+  position: relative;
+  /*width: 300px;
+    height: 278px;
+    display: table;*/
+}
+.textmiddle {
+  display: table-cell;
+  vertical-align: middle;
+  font-family: Arcon;
+  font-size: 38px;
+  letter-spacing: 1px;
+  padding-bottom: 50px;
+}
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
+.closePop {
+  position: absolute;
+  right: 40px;
+  /*bottom: 70px;
+    width: 52px;
+    height: 50px;
+    background-image: url("../images/back_btn.png");
+    background-size: contain;
+    background-repeat: no-repeat; */
+  cursor: pointer;
+}
+/****************** mcq styles - ends here *******************/
+/****************** drag and drop styles - starts here *******************/
+#mycanvas {
+  position: absolute;
+  top: 0;
+}
+.opt,
+.pic {
+  position: absolute;
+  width: fit-content;
+}
+.txtHolder {
+  position: relative;
+  float: left;
+  padding: 0 20px 0 0;
+  text-align: right;
+  font-family: Arcon;
+  font-size: 38px;
+  letter-spacing: 1px;
+  user-select: none;
+}
+.imgHolder {
+  position: relative;
+  float: right;
+  padding: 0 20px 0 0;
+  text-align: right;
+  font-family: Arcon;
+  font-size: 38px;
+  letter-spacing: 1px;
+  z-index: -1;
+}
+.dragPoint,
+.dropPoint,
+.mousePoint {
+  position: relative;
+  top: 20px;
+  width: 15px;
+  height: 15px;
+  background-color: blue;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.dragPoint,
+.dropPoint {
+  z-index: 2;
+}
+.dragPoint {
+  float: right;
+}
+.dropPoint {
+  float: left;
+  top: 55px;
+  right: 10px;
+}
+/****************** drag and drop styles - ends here *******************/
+/****************** Number the pictures in order styles - starts here *******************/
+.inLine {
+  display: flex;
+}
+.imgBox {
+  position: relative;
+  float: right;
+}
+input[type="text"] {
+  font-family: ZNuscriptHeavy;
+  font-size: 50px;
+  font-weight: 600;
+  text-align: center;
+  padding-left: 5px;
+  border: 3px solid #9c8769;
+  color: black;
+}
+/****************** Number the pictures in order styles - ends here *******************/
+/****************** tick activity styles - starts here *******************/
+.opt_grp {
+  position: absolute;
+  width: 220px;
+  padding: 0 2px;
+}
+.opt_set {
+  position: absolute;
+}
+.tickBox {
+  height: 52px;
+  width: 52px;
+  border: 1px solid black;
+  background-color: white;
+}
+.tickBox img {
+  padding: 4px;
+}
+.opt_txt {
+  font-family: Arcon;
+  font-size: 38px;
+  letter-spacing: 1px;
+  padding: 2px;
+  text-align: left;
+}
+/****************** color_select styles - starts here *******************/
+.shape,
+.colorShape {
+  fill: white;
+  cursor: pointer;
+  stroke: black;
+  stroke-width: 2px;
+}
+.line {
+  stroke: black;
+  fill: none;
+}
+.path_7 {
+  fill: black;
+}
+.fillWhite {
+  fill: white;
+}
+.fillBlue {
+  fill: #72c5f7;
+}
+.fillGreen {
+  fill: #8cc63f;
+}
+.fillRed {
+  fill: #f53656;
+}
+.cls-1 {
+  fill: black;
+}
+
+/****************** color_palette styles - starts here *******************/
+.color_palette_wrap {
+  position: fixed;
+  top: 140px;
+  right: -190px;
+  border-radius: 10px;
+  background-color: #d7bb97;
+  box-shadow: 1px 1px 3px #58472c;
+  z-index: 10;
+  opacity: 0;
+}
+.palette_icon {
+  margin: 20px 10px;
+  cursor: pointer;
+}
+.palette_aro {
+  margin: auto;
+}
+.palette {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: auto;
+  padding: 5px;
+  margin: auto;
+}
+.colorBox {
+  width: 35px;
+  height: 35px;
+  margin: 3px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid #ffffff;
+}
+.tc_icons {
+  position: relative;
+  width: 52px;
+  height: 50px;
+}
+.tc_icons .tick,
+.tc_icons .cross {
+  top: 0;
+  right: 0;
+}
+/****************** wordsearch styles - starts here *******************/
+.wordmatrix {
+  position: absolute;
+  width: fit-content;
+  border: 6px solid #846c4e;
+  padding: 1px;
+  top: 80px;
+  left: 110px;
+}
+.wordmatrix .row {
+  background-color: white;
+}
+.wordmatrix .row .col {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #f8a141;
+  padding: 5px;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+.wordmatrix .row .col p {
+  font-family: ZNuscriptHeavy;
+  font-size: 32px;
+  font-weight: bold;
+  margin: auto;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+.wordlist {
+  position: absolute;
+  top: 110px;
+  left: 650px;
+  font-family: Arcon;
+  font-size: 32px;
+  text-align: left;
+  letter-spacing: 1px;
+  font-weight: bold;
+  border: 2px solid #f8a84f;
+  padding: 20px 50px 30px 70px;
+  border-radius: 20px;
+}
+.wordlist .word {
+  position: relative;
+}
+.wordlist .word .fa {
+  position: absolute;
+  top: 10px;
+  left: -45px;
+}
+/********** letterpath styles - starts here  *******/
+.letterMatrix {
+  position: absolute;
+  padding: 1px;
+  top: 130px;
+  left: 148px;
+}
+.lpCol {
+  width: 40px;
+  height: 40px;
+  border: 2px solid black;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+}
+.lpCol p {
+  font-family: Gothic;
+  font-size: 34px;
+  font-weight: bold;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+/********** letterchoice styles - starts here  *******/
+.alph {
+  width: 40px;
+  height: 40px;
+  border: 2px solid black;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  position: relative;
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+}
+.alph span {
+  font-family: Gothic;
+  font-size: 34px;
+  font-weight: bold;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.correctWord {
+  background-color: #8cc63f;
+}
+.wrongWord {
+  background-color: #f53656;
+}
+.selWord {
+  background-color: #72c5f7;
+}

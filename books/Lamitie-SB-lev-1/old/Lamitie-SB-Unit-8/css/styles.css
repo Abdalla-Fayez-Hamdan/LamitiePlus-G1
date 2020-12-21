@@ -1,0 +1,414 @@
+@font-face {
+  font-family: RifficFree;
+  src: url("./fonts/RifficFree-Bold.ttf");
+}
+@font-face {
+  font-family: ComingSoon;
+  src: url("./fonts/ComingSoon.ttf");
+}
+@font-face {
+  font-family: Arcon;
+  src: url("./fonts/Arcon-Regular.otf");
+}
+@font-face {
+  font-family: Gothic;
+  src: url("./fonts/GOTHIC.TTF");
+}
+@font-face {
+  font-family: ZNuscriptHeavy;
+  src: url("./fonts/ZNuscriptHeavy.ttf");
+}
+@font-face {
+  font-family: AddisAbaba;
+  src: url("./fonts/AddisAbaba.ttf");
+}
+@font-face {
+  font-family: AdobeArabicRegular;
+  src: url("./fonts/AdobeArabic-Regular.otf");
+}
+@font-face {
+  font-family: AdobeFont;
+  src: url("./fonts/AdobeFnt14.lst");
+}
+@font-face {
+  font-family: AdriannaBold;
+  src: url("./fonts/Adrianna-ExtraBold.otf");
+}
+@font-face {
+  font-family: Adrianna;
+  src: url("./fonts/Adrianna-Regular.otf");
+}
+@font-face {
+  font-family: Animated;
+  src: url("./fonts/Animated.ttf");
+}
+@font-face {
+  font-family: AppleCasual;
+  src: url("./fonts/AppleCasual.dfont");
+}
+@font-face {
+  font-family: Athelas;
+  src: url("./fonts/Athelas.ttf");
+}
+@font-face {
+  font-family: AvantGarde;
+  src: url("./fonts/AvantGardeDemiBT.ttf");
+}
+@font-face {
+  font-family: Avenir;
+  src: url("./fonts/Avenir.ttf");
+}
+@font-face {
+  font-family: Avgardd;
+  src: url("./fonts/Avgardd.ttf");
+}
+@font-face {
+  font-family: Avgardn;
+  src: url("./fonts/Avgardn.ttf");
+}
+@font-face {
+  font-family: avantgardeitcbybt-Book;
+  src: url("./fonts/avantgardeitcbybt-Book.ttf");
+}
+@font-face {
+  font-family: ChickenButt;
+  src: url("./fonts/Chicken Butt.ttf");
+}
+@font-face {
+  font-family: DSSnowfall;
+  src: url("./fonts/DSSnowfall.ttf");
+}
+@font-face {
+  font-family: Futura;
+  src: url("./fonts/Futura.ttf");
+}
+@font-face {
+  font-family: GeorgiaItalic;
+  src: url("./fonts/Georgia Italic.ttf");
+}
+@font-face {
+  font-family: Helvetica;
+  src: url("./fonts/Helvetica.dfont");
+}
+@font-face {
+  font-family: KGMissKindergarten;
+  src: url("./fonts/KGMissKindergarten.ttf");
+}
+@font-face {
+  font-family: KGSecondChancesSolid;
+  src: url("./fonts/KGSecondChancesSolid.ttf");
+}
+@font-face {
+  font-family: LuckiestGuy;
+  src: url("./fonts/LuckiestGuy.ttf");
+}
+@font-face {
+  font-family: MinionPro;
+  src: url("./fonts/MinionPro-Regular.otf");
+}
+@font-face {
+  font-family: PoplarStd;
+  src: url("./fonts/PoplarStd.otf");
+}
+@font-face {
+  font-family: QuicksandBold;
+  src: url("./fonts/Quicksand_Bold.otf");
+}
+@font-face {
+  font-family: QuicksandBook;
+  src: url("./fonts/Quicksand_Book.otf");
+}
+@font-face {
+  font-family: QuicksandDash;
+  src: url("./fonts/Quicksand_Dash.otf");
+}
+@font-face {
+  font-family: RabbidHighway;
+  src: url("./fonts/RabbidHighwaySignII.otf");
+}
+@font-face {
+  font-family: SassoonInfantBold;
+  src: url("./fonts/SassoonInfantStd-Bold.otf");
+}
+@font-face {
+  font-family: SassoonInfantRegular;
+  src: url("./fonts/SassoonInfantStd-Regular.otf");
+}
+@font-face {
+  font-family: Schoolbell;
+  src: url("./fonts/Schoolbell.ttf");
+}
+@font-face {
+  font-family: SimplyRounded;
+  src: url("./fonts/Simply Rounded.ttf");
+}
+@font-face {
+  font-family: Toledo;
+  src: url("./fonts/toledo__.ttf");
+}
+@font-face {
+  font-family: Trace;
+  src: url("./fonts/TRACE___.ttf");
+}
+@font-face {
+  font-family: TwCenMTBoldItalic;
+  src: url("./fonts/Tw Cen MT Bold Italic.ttf");
+}
+@font-face {
+  font-family: TwCenMTBold;
+  src: url("./fonts/Tw Cen MT Bold.ttf");
+}
+@font-face {
+  font-family: TwCenMT;
+  src: url("./fonts/Tw Cen MT.ttf");
+}
+@font-face {
+  font-family: GrilledCheese;
+  src: url("./fonts/ufonts.com_grilledcheese-btn-2.ttf");
+}
+@font-face {
+  font-family: VAGRound;
+  src: url("./fonts/VAG Round.ttf");
+}
+@font-face {
+  font-family: ZootopiaJPosters;
+  src: url("./fonts/Zootopia JPosters.com.ar.otf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #525659;
+  /* user-select: none; */
+}
+
+.loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 90px;
+  height: 90px;
+  margin: -45px 0 0 -45px;
+  border: 10px solid rgba(82, 86, 89, 1);
+  border-radius: 50%;
+  border-top: 10px solid rgba(253, 185, 77, 1);
+  width: 60px;
+  height: 60px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#scaleable-wrapper {
+  width: 100%;
+  resize: both;
+  position: relative;
+  background: rgba(82, 86, 89, 1);
+  height: 100%;
+}
+#mainContainer {
+  width: 1024px;
+  height: 768px;
+  background: linear-gradient(#b7e4f1, #ffffff);
+  /* background-color: #B7E4F1; */
+  position: relative;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transform-origin: center center;
+  transform-origin: center center;
+  box-shadow: 0px 0px 5px #000;
+  overflow: hidden;
+}
+.unitTitle {
+  position: absolute;
+  left: 0px;
+  top: 18px;
+  width: 1024px;
+  text-align: center;
+  font-family: RifficFree;
+  font-size: 44px;
+  color: rgb(15, 137, 202);
+  text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff,
+    -1px 1px 0 #fff, 1px 1px 0 #fff;
+  letter-spacing: 2px;
+}
+.audioTime {
+  position: absolute;
+  top: 600px;
+  right: 650px;
+  z-index: 10;
+}
+.full_screen {
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  width: 57px;
+  height: 55px;
+  cursor: pointer;
+}
+footer .welcomBtn {
+  position: absolute;
+  left: 65px;
+  bottom: 10px;
+  background-image: url("../images/welcome_btn.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 208px;
+  height: 40px;
+  cursor: pointer;
+}
+.snapshotBtn {
+  position: absolute;
+  left: 110px;
+  top: 75px;
+  /* background-image: url("../images/snapshot_btn.png"); */
+  background-color: turquoise;
+  border-radius: 25px;
+  font-size: 30px;
+  /* hhh */
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 310px;
+  height: 40px;
+  cursor: pointer;
+}
+.readingBtn {
+  position: absolute;
+  left: 475px;
+  top: 75px;
+  /* background-image: url("../images/reading_btn.png"); */
+  background-color: turquoise;
+  border-radius: 25px;
+  font-size: 30px;
+  /* hhh */
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 179px;
+  height: 40px;
+  cursor: pointer;
+}
+.activitiesBtn {
+  position: absolute;
+  left: 700px;
+  top: 75px;
+  /* background-image: url("../images/activities_btn.png"); */
+  background-color: turquoise;
+  border-radius: 25px;
+  font-size: 30px;
+  /* hhh */
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 179px;
+  height: 40px;
+  cursor: pointer;
+}
+footer .homeBtn {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  background-image: url("../images/footer/reload.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 57px;
+  height: 55px;
+  cursor: pointer;
+}
+
+footer .back {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  background-image: url("../images/footer/reload.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 57px;
+  height: 55px;
+  cursor: pointer;
+}
+
+header .back {
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  background-image: url("../images/header/menu.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 57px;
+  height: 55px;
+  cursor: pointer;
+}
+
+footer .check {
+  position: absolute;
+  right: 80px;
+  bottom: 10px;
+  background-image: url("../images/footer/true.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 57px;
+  height: 55px;
+  cursor: pointer;
+}
+
+footer .right {
+  position: absolute;
+  right: 430px;
+  bottom: 10px;
+  background-image: url("../images/footer/right.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 57px;
+  height: 55px;
+  cursor: pointer;
+}
+
+footer .left {
+  position: absolute;
+  right: 500px;
+  bottom: 10px;
+  background-image: url("../images/footer/left.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 57px;
+  height: 55px;
+  cursor: pointer;
+}
+/**Audio **/
+.unitTitle .audioIcon {
+  position: absolute;
+  left: 265px;
+  top: 0px;
+  width: 41px;
+  height: 40px;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.unitTitle .audioIcon.off {
+  background-image: url("../images/soundMe.PNG");
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.unitTitle .audioIcon.on {
+  background-image: url("../images/soundMe.PNG");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/**End**/

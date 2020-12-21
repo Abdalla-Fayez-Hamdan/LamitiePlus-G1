@@ -1,0 +1,2082 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML coding - Grade 1.1 - Unit 1</title>
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/jquery-ui.min.css" />
+    <link rel="stylesheet" href="./css/reading.css" />
+
+    <link rel="stylesheet" href="./css/menuDes.css" />
+
+    <link rel="stylesheet" href="./css/activities.css" />
+
+    <script src="./js/jquery-3.4.1.min.js" type="text/javascript"></script>
+    <script src="./js/jquery-ui.min.js" type="text/javascript"></script>
+    <script
+      src="./js/jquery.ui.touch-punch.min.js"
+      text="text/javascript"
+    ></script>
+    <style>
+      .alph-btn {
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0);
+        width: 60px;
+        height: 60px;
+        border: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="scaleable-wrapper">
+      <div id="mainContainer" style="background: #fff">
+        <div class="loader"></div>
+        <header
+          style="
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 1024px;
+            height: 123px;
+            z-index: 1;
+            /* background-image: url('./images/header.png'); */
+            background-size: contain;
+            background-repeat: no-repeat;
+          "
+        >
+          <div
+            style="
+              position: absolute;
+              left: 40px;
+              top: -30px;
+              width: 180px;
+              height: 140px;
+              background-image: url('../../../newSlides/imgs-unit8/logo.png');
+              background-size: contain;
+              background-repeat: no-repeat;
+            "
+          ></div>
+
+          <img
+            src="./images/header/line.png"
+            alt=""
+            style="position: absolute; top: 80px; z-index: -1; height: 7px; width: 100%;"
+          />
+
+          <div class="unitTitle" style="color: turquoise">
+            <img src="../../../newSlides/imgs-unit8/title.PNG" alt="" style="width: 400px" />
+
+            <audio
+              id="soundClip1"
+              src="../../../MyAudios/Unit 1/Unite 1- Bonjour ! Comment ça va.mp3"
+              preload="auto"
+            ></audio>
+            <div
+              class="bookTitle"
+              data-audio="./audios/SlideOne/02 Track 2-[AudioTrimmer.com].mp3"
+            >
+              <div
+                class="audioIcon off"
+                data-starttime="0"
+                data-endtime="7.5"
+                style="cursor: pointer; left: 270px; top: 30px"
+              ></div>
+            </div>
+
+          </div>
+          <div class="back"></div>
+          <div class="full_screen" style="right: 75px">
+            <img
+              src="../../../newSlides/maximize.png"
+              alt="full_screen"
+              style="width: 100%"
+            />
+          </div>
+        </header>
+        <div
+          style="
+            position: absolute;
+            left: 0;
+            top: 0px;
+            width: 1024px;
+            height: 768px;
+            z-index: -1;
+          "
+        >
+          <div class="bodyContainer">
+            <div class="slides">
+              <div class="slide">
+                <div
+                  class="activityHeading"
+                  style="
+                    /* color: #162f79; */
+                    font-family: KGSecondChancesSolid;
+                    left: 50px;
+                  "
+                >
+                  Regarde et ecoute.
+                  <div
+                    class="audioCard word30"
+                    style="
+                      width: 50px;
+                      height: 50px;
+                      /* border: #162f79 solid 1px; */
+                      left: 245px;
+                      position: absolute;
+                      top: -10;
+                      z-index: 1;
+                    "
+                  >
+                    <audio
+                      id="audioClip_30"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Regarde et écoute.mp3"
+                      preload="auto"
+                    ></audio>
+                  </div>
+
+                  <div class="bookTitle" data-audio="./audios/Track1.mp3">
+                    <div
+                      class="audioIcon off"
+                      data-starttime="0"
+                      data-endtime="7.5"
+                      style="cursor: pointer; left: 250px; top: 20px"
+                    ></div>
+                  </div>
+                </div>
+
+                <div
+                  class="imageHolder"
+                  style="margin-top: 40px;"
+                >
+                  <img
+                    src="../Lamitie-SB-Unit-9/images/unit8/page1.png"
+                    alt=""
+                    height="540px"
+                  />
+                  <!-- ///////////////////////////////// audio for slide -->
+                  <div
+                    class="audioCard word50"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 280px;
+                      top: 370px;
+                      width: 189px;
+                      height: 90px;
+                      background-image: url(../Lamitie-SB-Unit-9/images/unit8/page1-text1.png);
+                      background-size: cover;
+                      border-radius: 5px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_50"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 1/Bonjour Marc! Comment ca va.mp3"
+                      preload="auto"
+                    ></audio>
+                  </div>
+                  <div
+                    class="audioCard word51"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      left: 470px;
+                      top: 190px;
+                      width: 200px;
+                      height: 70px;
+                      z-index: 1;
+                      background-image: url(../Lamitie-SB-Unit-9/images/unit8/page1-text2.png);
+                      background-size: cover;
+                      border-radius: 5px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_51"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 1/Ca va bien merci. Et toi Aline.mp3"
+                      preload="auto"
+                    ></audio>
+                  </div>
+                  <div
+                    class="audioCard word51"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      left: 605px;
+                      top: 285px;
+                      width: 180px;
+                      height: 70px;
+                      z-index: 1;
+                      background-image: url(../Lamitie-SB-Unit-9/images/unit8/page1-text3.png);
+                      background-size: cover;
+                      border-radius: 5px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_51"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 1/Ca va bien merci. Et toi Aline.mp3"
+                      preload="auto"
+                    ></audio>
+                  </div>
+                  <!-- ///////////////////////////////// audio for slide -->
+                </div>
+
+                <div
+                  class="imageHolder"
+                  style="position: absolute; top: 0px; left: 750px"
+                >
+                  <img
+                    id="dialogBtn"
+                    src="../../../newSlides/menu__copy_2.png"
+                    alt=""
+                    height="50px"
+                  />
+                </div>
+
+                <script>
+                  $("#dialogBtn").click(function () {
+                    if ($("#dialogDS").css("display") == "none") {
+                      $("#dialogDS").css("display", "block");
+                    } else {
+                      $("#dialogDS").css("display", "none");
+                    }
+                  });
+                </script>
+                <div
+                  id="dialogDS"
+                  class="imageHolder"
+                  style="
+                    position: absolute;
+                    top: 50px;
+                    left: 730px;
+                    display: none;
+                  "
+                >
+                  <img
+                    src="../Lamitie-SB-Unit-9/images/unit8/objectives.png"
+                    alt=""
+                    height="90px"
+                  />
+                </div>
+
+              </div>
+
+              <div class="slide">
+                <div
+                  class="activityHeading"
+                  style="
+                    /* color: #162f79; */
+                    font-family: KGSecondChancesSolid;
+                    left: 50px;
+                  "
+                >
+                  Regarde et ecoute.
+                  <div
+                    class="audioCard word30"
+                    style="
+                      width: 50px;
+                      height: 50px;
+                      /* border: #162f79 solid 1px; */
+                      left: 245px;
+                      position: absolute;
+                      top: -10;
+                      z-index: 1;
+                    "
+                  >
+                    <audio
+                      id="audioClip_30"
+                      src="audios/SlideOne/ee02 Track 2-[AudioTrimmer.com].mp3"
+                      preload="auto"
+                    ></audio>
+                  </div>
+
+                  <div class="bookTitle" data-audio="./audios/Track1.mp3">
+                    <div
+                      class="audioIcon off"
+                      data-starttime="0"
+                      data-endtime="7.5"
+                      style="cursor: pointer; left: 250px; top: 20px"
+                    ></div>
+                  </div>
+                </div>
+                <div
+                  class="imageHolder"
+                  style="position: absolute; left: 110px; top: 20px"
+                >
+                  <div
+                    class="audioCard word56 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 50px;
+                      top: 40px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_56"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../Lamitie-SB-Unit-9/images/unit8/page2-1.png"
+                      alt=""
+                      height="225px"
+                      />
+                  </div>
+
+                  <div
+                    class="audioCard word57 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 300px;
+                      top: 40px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_57"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../Lamitie-SB-Unit-9/images/unit8/page2-2.png"
+                      alt=""
+                      height="225px"
+                      />
+                  </div>
+
+                  <div
+                    class="audioCard word58 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 550px;
+                      top: 40px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_58"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../Lamitie-SB-Unit-9/images/unit8/page2-3.png"
+                      alt=""
+                      height="225px"
+                      />
+                  </div>
+
+                  <div
+                    class="audioCard word59 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 50px;
+                      top: 280px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_59"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../Lamitie-SB-Unit-9/images/unit8/page2-4.png"
+                      alt=""
+                      height="225px"
+                      />
+                  </div>
+
+                  <div
+                    class="audioCard word60 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 300px;
+                      top: 280px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_60"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../Lamitie-SB-Unit-9/images/unit8/page2-5.png"
+                      alt=""
+                      height="225px"
+                      />
+                  </div>
+
+                  <div
+                    class="audioCard word61 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 550px;
+                      top: 280px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_61"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../Lamitie-SB-Unit-9/images/unit8/page2-6.png"
+                      alt=""
+                      height="225px"
+                      />
+                  </div>
+                </div>
+              </div>
+
+              <div class="slide">
+                <div
+                  class="activityHeading"
+                  style="
+                    /* color: #162f79; */
+                    font-family: KGSecondChancesSolid;
+                    left: 50px;
+                  "
+                >
+                  Regarde et ecoute.
+                  <div
+                    class="audioCard word30"
+                    style="
+                      width: 50px;
+                      height: 50px;
+                      /* border: #162f79 solid 1px; */
+                      left: 245px;
+                      position: absolute;
+                      top: -10;
+                      z-index: 1;
+                    "
+                  >
+                    <audio
+                      id="audioClip_30"
+                      src="audios/SlideOne/ee02 Track 2-[AudioTrimmer.com].mp3"
+                      preload="auto"
+                    ></audio>
+                  </div>
+                  <div class="bookTitle" data-audio="./audios/Track1.mp3">
+                    <div
+                      class="audioIcon off"
+                      data-starttime="0"
+                      data-endtime="7.5"
+                      style="cursor: pointer; left: 250px; top: 20px"
+                    ></div>
+                  </div>
+                </div>
+                <div
+                  class="imageHolder"
+                  style="position: absolute; left: 85px; top: 75px"
+                >
+                  <div
+                    class="audioCard word56 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 0px;
+                      top: 0px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_56"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../Lamitie-SB-Unit-9/images/unit8/page3-1.png"
+                      alt=""
+                      height="150px"
+                      />
+                  </div>
+
+                  <div
+                    class="audioCard word57 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 220px;
+                      top: 0px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_57"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../Lamitie-SB-Unit-9/images/unit8/page3-2.png"
+                      alt=""
+                      height="150px"
+                      />
+                  </div>
+
+                  <div
+                    class="audioCard word58 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 440px;
+                      top: 0px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_58"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../Lamitie-SB-Unit-9/images/unit8/page3-3.png"
+                      alt=""
+                      height="150px"
+                      />
+                  </div>
+
+                  <div
+                    class="audioCard word59 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 660px;
+                      top: 0px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_59"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../Lamitie-SB-Unit-9/images/unit8/page3-4.png"
+                      alt=""
+                      height="150px"
+                      />
+                  </div>
+
+                  <div
+                    class="audioCard word60 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 0px;
+                      top: 160px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_60"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../Lamitie-SB-Unit-9/images/unit8/page3-5.png"
+                      alt=""
+                      height="150px"
+                      />
+                  </div>
+
+                  <div
+                    class="audioCard word61 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 220px;
+                      top: 160px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_61"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../Lamitie-SB-Unit-9/images/unit8/page3-6.png"
+                      alt=""
+                      height="150px"
+                      />
+                  </div>
+
+                  <div
+                    class="audioCard word62 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 440px;
+                      top: 160px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_62"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../Lamitie-SB-Unit-9/images/unit8/page3-7.png"
+                      alt=""
+                      height="150px"
+                      />
+                  </div>
+
+                  <div
+                    class="audioCard word63 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 660px;
+                      top: 160px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_63"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../Lamitie-SB-Unit-9/images/unit8/page3-8.png"
+                      alt=""
+                      height="150px"
+                      />
+                  </div>
+
+                  <div
+                    class="audioCard word64 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 0px;
+                      top: 320px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_64"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../Lamitie-SB-Unit-9/images/unit8/page3-9.png"
+                      alt=""
+                      height="150px"
+                      />
+                  </div>
+
+                  <div
+                    class="audioCard word65 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 220px;
+                      top: 320px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_65"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../Lamitie-SB-Unit-9/images/unit8/page3-10.png"
+                      alt=""
+                      height="150px"
+                      />
+                  </div>
+
+                  <div
+                    class="audioCard word66 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 440px;
+                      top: 320px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_66"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../Lamitie-SB-Unit-9/images/unit8/page3-11.png"
+                      alt=""
+                      height="150px"
+                      />
+                  </div>
+
+                  <div
+                    class="audioCard word67 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 660px;
+                      top: 320px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_67"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../Lamitie-SB-Unit-9/images/unit8/page3-12.png"
+                      alt=""
+                      height="150px"
+                      />
+                  </div>
+                </div>
+              </div>
+
+              <div class="slide">
+                <div
+                  class="activityHeading"
+                  style="
+                    /* color: #162f79; */
+                    font-family: KGSecondChancesSolid;
+                    left: 50px;
+                  "
+                >
+                  Regarde et ecoute.
+                  <div
+                    class="audioCard word30"
+                    style="
+                      width: 50px;
+                      height: 50px;
+                      /* border: #162f79 solid 1px; */
+                      left: 245px;
+                      position: absolute;
+                      top: -10;
+                      z-index: 1;
+                    "
+                  >
+                    <audio
+                      id="audioClip_30"
+                      src="audios/SlideOne/ee02 Track 2-[AudioTrimmer.com].mp3"
+                      preload="auto"
+                    ></audio>
+                  </div>
+
+                  <div class="bookTitle" data-audio="./audios/Track1.mp3">
+                    <div
+                      class="audioIcon off"
+                      data-starttime="0"
+                      data-endtime="7.5"
+                      style="cursor: pointer; left: 250px; top: 20px"
+                    ></div>
+                  </div>
+                </div>
+                <div
+                  class="imageHolder"
+                  style="position: absolute; left: 100px; top: 50px"
+                >
+                  <div
+                    class="audioCard word56 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 50px;
+                      top: 40px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_56"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../Lamitie-SB-Unit-9/images/unit8/page4-1.png"
+                      alt=""
+                      height="200px"
+                      />
+                  </div>
+
+                  <div
+                    class="audioCard word57 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 300px;
+                      top: 40px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_57"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../Lamitie-SB-Unit-9/images/unit8/page4-2.png"
+                      alt=""
+                      height="200px"
+                      />
+                  </div>
+
+                  <div
+                    class="audioCard word58 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 550px;
+                      top: 40px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_58"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../Lamitie-SB-Unit-9/images/unit8/page4-3.png"
+                      alt=""
+                      height="200px"
+                      />
+                  </div>
+
+                  <div
+                    class="audioCard word59 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 50px;
+                      top: 280px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_59"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../Lamitie-SB-Unit-9/images/unit8/page4-4.png"
+                      alt=""
+                      height="200px"
+                      />
+                  </div>
+
+                  <div
+                    class="audioCard word60 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 300px;
+                      top: 280px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_60"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../Lamitie-SB-Unit-9/images/unit8/page4-5.png"
+                      alt=""
+                      height="200px"
+                      />
+                  </div>
+
+                  <div
+                    class="audioCard word61 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 550px;
+                      top: 280px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_61"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../Lamitie-SB-Unit-9/images/unit8/page4-6.png"
+                      alt=""
+                      height="200px"
+                      />
+                  </div>
+                </div>
+              </div>
+
+              <div class="slide">
+                <div
+                  class="activityHeading"
+                  style="
+                    /* color: #162f79; */
+                    font-family: KGSecondChancesSolid;
+                    left: 50px;
+                  "
+                >
+                  Regarde et ecoute.
+                  <div
+                    class="audioCard word30"
+                    style="
+                      width: 50px;
+                      height: 50px;
+                      /* border: #162f79 solid 1px; */
+                      left: 245px;
+                      position: absolute;
+                      top: -10;
+                      z-index: 1;
+                    "
+                  >
+                    <audio
+                      id="audioClip_30"
+                      src="audios/SlideOne/ee02 Track 2-[AudioTrimmer.com].mp3"
+                      preload="auto"
+                    ></audio>
+                  </div>
+                  <div class="bookTitle" data-audio="./audios/Track1.mp3">
+                    <div
+                      class="audioIcon off"
+                      data-starttime="0"
+                      data-endtime="7.5"
+                      style="cursor: pointer; left: 250px; top: 20px"
+                    ></div>
+                  </div>
+                </div>
+                <div
+                  class="imageHolder"
+                  style="position: absolute; top: 75px; left: -20px;"
+                >
+                  <div
+                    class="audioCard word56 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 0px;
+                      top: 0px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_56"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../Lamitie-SB-Unit-9/images/unit8/page5-1.png"
+                      alt=""
+                      height="120px"
+                      />
+                  </br>
+                      Un pantalon
+                  </div>
+
+                  <div
+                    class="audioCard word57 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 180px;
+                      top: 0px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_57"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../Lamitie-SB-Unit-9/images/unit8/page5-2.png"
+                      alt=""
+                      height="120px"
+                      />
+                  </br>
+                      Un jean
+                  </div>
+
+                  <div
+                    class="audioCard word58 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 360px;
+                      top: 0px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_58"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../Lamitie-SB-Unit-9/images/unit8/page5-3.png"
+                      alt=""
+                      height="120px"
+                      />
+                  </br>
+                      Une jupe
+                  </div>
+
+                  <div
+                    class="audioCard word59 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 520px;
+                      top: 0px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_59"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../Lamitie-SB-Unit-9/images/unit8/page5-4.png"
+                      alt=""
+                      height="120px"
+                      />
+                  </br>
+                      Une chemise
+                  </div>
+
+                  <div
+                    class="audioCard word59 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 700px;
+                      top: 0px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_59"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../Lamitie-SB-Unit-9/images/unit8/page5-5.png"
+                      alt=""
+                      height="120px"
+                      />
+                  </br>
+                      Un tee-shirt
+                  </div>
+
+                  <div
+                    class="audioCard word59 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 870px;
+                      top: 0px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_59"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../Lamitie-SB-Unit-9/images/unit8/page5-6.png"
+                      alt=""
+                      height="120px"
+                      />
+                  </br>
+                      Un tee-shirt
+                  </div>
+
+                  <div
+                    class="audioCard word60 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 0px;
+                      top: 160px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_60"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../Lamitie-SB-Unit-9/images/unit8/page5-7.png"
+                      alt=""
+                      height="120px"
+                      />
+                  </br>
+                      Un pyjama
+                  </div>
+
+                  <div
+                    class="audioCard word61 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 220px;
+                      top: 160px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_61"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../Lamitie-SB-Unit-9/images/unit8/page5-8.png"
+                      alt=""
+                      height="120px"
+                      />
+                  </br>
+                      Un manteau
+                  </div>
+
+                  <div
+                    class="audioCard word62 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 440px;
+                      top: 160px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_62"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../Lamitie-SB-Unit-9/images/unit8/page5-9.png"
+                      alt=""
+                      height="120px"
+                      />
+                  </br>
+                      Des sandales 
+                  </div>
+
+                  <div
+                    class="audioCard word63 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 660px;
+                      top: 160px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_63"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../Lamitie-SB-Unit-9/images/unit8/page5-10.png"
+                      alt=""
+                      height="120px"
+                      />
+                  </br>
+                      Des bottes
+                  </div>
+
+                  <div
+                    class="audioCard word63 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 860px;
+                      top: 160px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_63"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../Lamitie-SB-Unit-9/images/unit8/page5-11.png"
+                      alt=""
+                      height="120px"
+                      />
+                  </br>
+                      Des baskets
+                  </div>
+
+                  <div
+                    class="audioCard word64 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 0px;
+                      top: 320px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_64"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../Lamitie-SB-Unit-9/images/unit8/page5-12.png"
+                      alt=""
+                      height="120px"
+                      />
+                  </br>
+                      Un chapeau
+                  </div>
+
+                  <div
+                    class="audioCard word65 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 220px;
+                      top: 320px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_65"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../Lamitie-SB-Unit-9/images/unit8/page5-13.png"
+                      alt=""
+                      height="120px"
+                      />
+                  </br>
+                      Des chaussettes
+                  </div>
+
+                  <div
+                    class="audioCard word66 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 440px;
+                      top: 320px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_66"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../Lamitie-SB-Unit-9/images/unit8/page5-14.png"
+                      alt=""
+                      height="120px"
+                      />
+                  </br>
+                      Un pull
+                  </div>
+
+                  <div
+                    class="audioCard word67 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 660px;
+                      top: 320px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_67"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../Lamitie-SB-Unit-9/images/unit8/page5-15.png"
+                      alt=""
+                      height="120px"
+                      />
+                  </br>
+                      Un gant
+                  </div>
+
+                  <div
+                    class="audioCard word67 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 860px;
+                      top: 320px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_67"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../Lamitie-SB-Unit-9/images/unit8/page5-16.png"
+                      alt=""
+                      height="120px"
+                      />
+                  </br>
+                      Une robe
+                  </div>
+                </div>
+              </div>
+
+              <div class="slide">
+                <div
+                  class="activityHeading"
+                  style="
+                    /* color: #162f79; */
+                    font-family: KGSecondChancesSolid;
+                    left: 50px;
+                  "
+                >
+                  Regarde et ecoute.
+                  <div
+                    class="audioCard word30"
+                    style="
+                      width: 50px;
+                      height: 50px;
+                      /* border: #162f79 solid 1px; */
+                      left: 245px;
+                      position: absolute;
+                      top: -10;
+                      z-index: 1;
+                    "
+                  >
+                    <audio
+                      id="audioClip_30"
+                      src="audios/SlideOne/ee02 Track 2-[AudioTrimmer.com].mp3"
+                      preload="auto"
+                    ></audio>
+                  </div>
+                  <div class="bookTitle" data-audio="./audios/Track1.mp3">
+                    <div
+                      class="audioIcon off"
+                      data-starttime="0"
+                      data-endtime="7.5"
+                      style="cursor: pointer; left: 250px; top: 20px"
+                    ></div>
+                  </div>
+                </div>
+                <div
+                  class="imageHolder"
+                  style="position: absolute; top: 75px; left: -20px;"
+                >
+                  <div
+                    class="audioCard word56 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 0px;
+                      top: 0px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_56"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../Lamitie-SB-Unit-9/images/unit8/page6-1.png"
+                      alt=""
+                      height="120px"
+                      />
+                  </br>
+                      Un pantalon
+                  </div>
+
+                  <div
+                    class="audioCard word57 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 220px;
+                      top: 0px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_57"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../Lamitie-SB-Unit-9/images/unit8/page6-2.png"
+                      alt=""
+                      height="120px"
+                      />
+                  </br>
+                      Un jean
+                  </div>
+
+                  <div
+                    class="audioCard word58 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 440px;
+                      top: 0px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_58"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../Lamitie-SB-Unit-9/images/unit8/page6-3.png"
+                      alt=""
+                      height="120px"
+                      />
+                  </br>
+                      Une jupe
+                  </div>
+
+                  <div
+                    class="audioCard word59 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 660px;
+                      top: 0px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_59"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../Lamitie-SB-Unit-9/images/unit8/page6-4.png"
+                      alt=""
+                      height="120px"
+                      />
+                  </br>
+                      Une chemise
+                  </div>
+
+                  <div
+                    class="audioCard word59 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 860px;
+                      top: 0px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_59"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../Lamitie-SB-Unit-9/images/unit8/page6-5.png"
+                      alt=""
+                      height="120px"
+                      />
+                  </br>
+                      Un tee-shirt
+                  </div>
+
+                  <div
+                    class="audioCard word60 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 0px;
+                      top: 160px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_60"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../Lamitie-SB-Unit-9/images/unit8/page6-6.png"
+                      alt=""
+                      height="120px"
+                      />
+                  </br>
+                      Un pyjama
+                  </div>
+
+                  <div
+                    class="audioCard word61 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 220px;
+                      top: 160px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_61"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../Lamitie-SB-Unit-9/images/unit8/page6-7.png"
+                      alt=""
+                      height="120px"
+                      />
+                  </br>
+                      Un manteau
+                  </div>
+
+                  <div
+                    class="audioCard word62 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 440px;
+                      top: 160px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_62"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../Lamitie-SB-Unit-9/images/unit8/page6-8.png"
+                      alt=""
+                      height="120px"
+                      />
+                  </br>
+                      Des sandales 
+                  </div>
+
+                  <div
+                    class="audioCard word63 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 660px;
+                      top: 160px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_63"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../Lamitie-SB-Unit-9/images/unit8/page6-9.png"
+                      alt=""
+                      height="120px"
+                      />
+                  </br>
+                      Des bottes
+                  </div>
+
+                  <div
+                    class="audioCard word63 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 860px;
+                      top: 160px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_63"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../Lamitie-SB-Unit-9/images/unit8/page6-10.png"
+                      alt=""
+                      height="120px"
+                      />
+                  </br>
+                      Des baskets
+                  </div>
+
+                  <div
+                    class="audioCard word64 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 0px;
+                      top: 320px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_64"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../Lamitie-SB-Unit-9/images/unit8/page6-11.png"
+                      alt=""
+                      height="120px"
+                      />
+                  </br>
+                      Un chapeau
+                  </div>
+
+                  <div
+                    class="audioCard word65 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 220px;
+                      top: 320px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_65"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../Lamitie-SB-Unit-9/images/unit8/page6-12.png"
+                      alt=""
+                      height="120px"
+                      />
+                  </br>
+                      Des chaussettes
+                  </div>
+
+                  <div
+                    class="audioCard word66 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 440px;
+                      top: 320px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_66"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../Lamitie-SB-Unit-9/images/unit8/page6-13.png"
+                      alt=""
+                      height="120px"
+                      />
+                  </br>
+                      Un pull
+                  </div>
+
+                  <div
+                    class="audioCard word67 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 660px;
+                      top: 320px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_67"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../Lamitie-SB-Unit-9/images/unit8/page6-14.png"
+                      alt=""
+                      height="120px"
+                      />
+                  </br>
+                      Un gant
+                  </div>
+
+                  <div
+                    class="audioCard word67 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 860px;
+                      top: 320px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_67"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../Lamitie-SB-Unit-9/images/unit8/page6-15.png"
+                      alt=""
+                      height="120px"
+                      />
+                  </br>
+                      Une robe
+                  </div>
+                </div>
+              </div>
+
+              <div class="slide">
+                <div
+                  class="activityHeading"
+                  style="
+                    /* color: #162f79; */
+                    font-family: KGSecondChancesSolid;
+                    left: 50px;
+                  "
+                >
+                  Regarde et ecoute.
+                  <div
+                    class="audioCard word30"
+                    style="
+                      width: 50px;
+                      height: 50px;
+                      /* border: #162f79 solid 1px; */
+                      left: 245px;
+                      position: absolute;
+                      top: -10;
+                      z-index: 1;
+                    "
+                  >
+                    <audio
+                      id="audioClip_30"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Regarde et écoute.mp3"
+                      preload="auto"
+                    ></audio>
+                  </div>
+
+                  <div class="bookTitle" data-audio="./audios/Track1.mp3">
+                    <div
+                      class="audioIcon off"
+                      data-starttime="0"
+                      data-endtime="7.5"
+                      style="cursor: pointer; left: 250px; top: 20px"
+                    ></div>
+                  </div>
+                </div>
+
+                <div
+                  class="imageHolder"
+                  style="margin-top: 50px;"
+                >
+                  <img
+                    src="../Lamitie-SB-Unit-9/images/unit8/page7.png"
+                    alt=""
+                    height="520px"
+                  />
+                  <!-- ///////////////////////////////// audio for slide -->
+                  <div
+                    class="audioCard word51"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      left: 340px;
+                      top: 90px;
+                      width: 220px;
+                      height: 90px;
+                      z-index: 1;
+                      background-image: url(../Lamitie-SB-Unit-9/images/unit8/page7-text1.png);
+                      background-size: cover;
+                      border-radius: 5px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_51"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 1/Ca va bien merci. Et toi Aline.mp3"
+                      preload="auto"
+                    ></audio>
+                  </div>
+                  <div
+                    class="audioCard word51"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      left: 480px;
+                      top: 350px;
+                      width: 215px;
+                      height: 85px;
+                      z-index: 1;
+                      background-image: url(../Lamitie-SB-Unit-9/images/unit8/page7-text2.png);
+                      background-size: cover;
+                      border-radius: 5px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_51"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 1/Ca va bien merci. Et toi Aline.mp3"
+                      preload="auto"
+                    ></audio>
+                  </div>
+                  <!-- ///////////////////////////////// audio for slide -->
+                </div>
+              </div>
+
+              
+            </div>
+          </div>
+        </div>
+
+        <footer
+          style="
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 1024px;
+            height: 80px;
+            z-index: 1;
+            background-image: url('./images/footer/footerBackGround.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+          "
+        >
+          <div>
+          </div>
+          <div class="nextBtn" style="top: 10px"></div>
+          <div class="backBtn disabled" style="top: 10px"></div>
+          <div
+            class="reading1Btn"
+            style="
+              position: absolute;
+              left: 30px;
+              top: 15px;
+              cursor: pointer;
+              width: 100px;
+              height: 50px;
+            "
+          >
+            <img
+              src="./images/footer/book-1.png"
+              alt=""
+              style="width: 100%; height: 100%; object-fit: contain"
+            />
+          </div>
+          <div
+            class="reading2Btn"
+            style="
+              position: absolute;
+              left: 135px;
+              top: 15px;
+              cursor: pointer;
+              width: 100px;
+              height: 50px;
+            "
+          >
+            <img
+              src="./images/footer/book-2.png"
+              alt=""
+              style="width: 100%; height: 100%; object-fit: contain"
+            />
+          </div>
+
+        </footer>
+      </div>
+    </div>
+
+    <audio id="audioClip_1" src="audios/Track1.mp3" preload="auto"></audio>
+    <script src="./js/activities.js"></script>
+    <script src="./js/audioControls.js" type="text/javascript"></script>
+    <script src="./js/main.js" type="text/javascript"></script>
+    <script src="./js/snapshot.js"></script>
+  </body>
+</html>

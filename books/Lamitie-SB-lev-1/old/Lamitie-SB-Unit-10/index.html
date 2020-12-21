@@ -1,0 +1,1212 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML coding - Grade 1.1 - Unit 1</title>
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/jquery-ui.min.css" />
+    <link rel="stylesheet" href="./css/reading.css" />
+
+    <link rel="stylesheet" href="./css/menuDes.css" />
+
+    <link rel="stylesheet" href="./css/activities.css" />
+
+    <script src="./js/jquery-3.4.1.min.js" type="text/javascript"></script>
+    <script src="./js/jquery-ui.min.js" type="text/javascript"></script>
+    <script
+      src="./js/jquery.ui.touch-punch.min.js"
+      text="text/javascript"
+    ></script>
+    <style>
+      .alph-btn {
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0);
+        width: 60px;
+        height: 60px;
+        border: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="scaleable-wrapper">
+      <div id="mainContainer" style="background: #fff">
+        <div class="loader"></div>
+        <header
+          style="
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 1024px;
+            height: 123px;
+            z-index: 1;
+            /* background-image: url('./images/header.png'); */
+            background-size: contain;
+            background-repeat: no-repeat;
+          "
+        >
+          <div
+            style="
+              position: absolute;
+              left: 40px;
+              top: -30px;
+              width: 180px;
+              height: 140px;
+              background-image: url('../../../newSlides/imgs-unit9/logo.png');
+              background-size: contain;
+              background-repeat: no-repeat;
+            "
+          ></div>
+          <img
+            src="./images/header/line.png"
+            alt=""
+            style="position: absolute; top: 80px; z-index: -1"
+          />
+
+          <div class="unitTitle" style="color: turquoise">
+            <img src="../../../newSlides/imgs-unit9/title.PNG" alt="" style="width: 500px; margin-top: 10px;" />
+
+            <audio
+              id="soundClip1"
+              src="../../../MyAudios/Unit 1/Unite 1- Bonjour ! Comment ça va.mp3"
+              preload="auto"
+            ></audio>
+            <div
+              class="bookTitle"
+              data-audio="./audios/SlideOne/02 Track 2-[AudioTrimmer.com].mp3"
+            >
+              <div
+                class="audioIcon off"
+                data-starttime="0"
+                data-endtime="7.5"
+                style="cursor: pointer; left: 220px; top: 30px"
+              ></div>
+            </div>
+
+          </div>
+          <div class="back"></div>
+          <div class="full_screen" style="right: 75px">
+            <img
+              src="../../../newSlides/maximize.png"
+              alt="full_screen"
+              style="width: 100%"
+            />
+          </div>
+        </header>
+        <div
+          style="
+            position: absolute;
+            left: 0;
+            top: 0px;
+            width: 1024px;
+            height: 768px;
+            z-index: -1;
+          "
+        >
+
+          <div class="bodyContainer">
+            <div class="slides">
+              <div class="slide">
+                <div
+                  class="activityHeading"
+                  style="
+                    /* color: #162f79; */
+                    font-family: KGSecondChancesSolid;
+                    left: 50px;
+                  "
+                >
+                  Regarde et ecoute.
+                  <div
+                    class="audioCard word30"
+                    style="
+                      width: 50px;
+                      height: 50px;
+                      /* border: #162f79 solid 1px; */
+                      left: 245px;
+                      position: absolute;
+                      top: -10;
+                      z-index: 1;
+                    "
+                  >
+                    <audio
+                      id="audioClip_30"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Regarde et écoute.mp3"
+                      preload="auto"
+                    ></audio>
+                  </div>
+
+                  <div class="bookTitle" data-audio="./audios/Track1.mp3">
+                    <div
+                      class="audioIcon off"
+                      data-starttime="0"
+                      data-endtime="7.5"
+                      style="cursor: pointer; left: 250px; top: 20px"
+                    ></div>
+                  </div>
+                </div>
+
+                <div
+                  class="imageHolder"
+                  style="position: absolute; top: 60px; left: 50px"
+                >
+                  <img
+                    src="../../../newSlides/imgs-unit9/page1.PNG"
+                    alt=""
+                    height="510px"
+                  />
+                  <!-- ///////////////////////////////// audio for slide -->
+                  <div
+                    class="audioCard word50"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 55px;
+                      top: 50px;
+                      width: 23px;
+                      height: 23px;
+                      background-image: url(../../../newSlides/headset.PNG);
+                      background-size: cover;
+                      border-radius: 5px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_50"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 1/Bonjour Marc! Comment ca va.mp3"
+                      preload="auto"
+                    ></audio>
+                  </div>
+                  <div
+                    class="audioCard word51"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      left: 275px;
+                      top: 0px;
+                      width: 23px;
+                      height: 23px;
+                      z-index: 1;
+                      background-image: url(../../../newSlides/headset.PNG);
+                      background-size: cover;
+                      border-radius: 5px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_51"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 1/Ca va bien merci. Et toi Aline.mp3"
+                      preload="auto"
+                    ></audio>
+                  </div>
+
+                  <div
+                    class="audioCard word51"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      left: 130px;
+                      top: 330px;
+                      width: 23px;
+                      height: 23px;
+                      z-index: 1;
+                      background-image: url(../../../newSlides/headset.PNG);
+                      background-size: cover;
+                      border-radius: 5px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_51"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 1/Ca va bien merci. Et toi Aline.mp3"
+                      preload="auto"
+                    ></audio>
+                  </div>
+
+                  <div
+                    class="audioCard word51"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      left: 310px;
+                      top: 272px;
+                      width: 23px;
+                      height: 23px;
+                      z-index: 1;
+                      background-image: url(../../../newSlides/headset.PNG);
+                      background-size: cover;
+                      border-radius: 5px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_51"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 1/Ca va bien merci. Et toi Aline.mp3"
+                      preload="auto"
+                    ></audio>
+                  </div>
+
+                  <div
+                    class="audioCard word51"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      left: 172px;
+                      top: 450px;
+                      width: 23px;
+                      height: 23px;
+                      z-index: 1;
+                      background-image: url(../../../newSlides/headset.PNG);
+                      background-size: cover;
+                      border-radius: 5px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_51"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 1/Ca va bien merci. Et toi Aline.mp3"
+                      preload="auto"
+                    ></audio>
+                  </div>
+
+                  <div
+                    class="audioCard word51"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      left: 410px;
+                      top: 404px;
+                      width: 23px;
+                      height: 23px;
+                      z-index: 1;
+                      background-image: url(../../../newSlides/headset.PNG);
+                      background-size: cover;
+                      border-radius: 5px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_51"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 1/Ca va bien merci. Et toi Aline.mp3"
+                      preload="auto"
+                    ></audio>
+                  </div>
+
+                  <!-- ///////////////////////////////// audio for slide -->
+                </div>
+
+                <div
+                  class="imageHolder"
+                  style="position: absolute; top: 0px; left: 750px"
+                >
+                  <img
+                    id="dialogBtn"
+                    src="../../../newSlides/menu__copy_2.png"
+                    alt=""
+                    height="50px"
+                  />
+                </div>
+
+                <script>
+                  $("#dialogBtn").click(function () {
+                    if ($("#dialogDS").css("display") == "none") {
+                      $("#dialogDS").css("display", "block");
+                    } else {
+                      $("#dialogDS").css("display", "none");
+                    }
+                  });
+                </script>
+                <div
+                  id="dialogDS"
+                  class="imageHolder"
+                  style="
+                    position: absolute;
+                    top: 50px;
+                    left: 750px;
+                    display: none;
+                  "
+                >
+                  <img
+                    src="../../../newSlides/imgs-unit9/objectives.PNG"
+                    alt=""
+                    height="130px"
+                  />
+                </div>
+
+              </div>
+
+              
+              <div class="slide">
+                <div
+                  class="activityHeading"
+                  style="
+                    /* color: #162f79; */
+                    font-family: KGSecondChancesSolid;
+                    left: 50px;
+                  "
+                >
+                  Regarde et ecoute.
+                  <div
+                    class="audioCard word30"
+                    style="
+                      width: 50px;
+                      height: 50px;
+                      /* border: #162f79 solid 1px; */
+                      left: 245px;
+                      position: absolute;
+                      top: -10;
+                      z-index: 1;
+                    "
+                  >
+                    <audio
+                      id="audioClip_30"
+                      src="audios/SlideOne/ee02 Track 2-[AudioTrimmer.com].mp3"
+                      preload="auto"
+                    ></audio>
+                  </div>
+
+                  <div class="bookTitle" data-audio="./audios/Track1.mp3">
+                    <div
+                      class="audioIcon off"
+                      data-starttime="0"
+                      data-endtime="7.5"
+                      style="cursor: pointer; left: 250px; top: 20px"
+                    ></div>
+                  </div>
+                </div>
+                <div
+                  class="imageHolder"
+                  style="position: absolute; left: 100px; top: 50px"
+                >
+                  <div
+                    class="audioCard word56 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 0px;
+                      top: 40px;
+                      width: 200px;
+                      height: 200px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_56"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../../../newSlides/imgs-unit9/page2-1.PNG"
+                      alt=""
+                      height="200px"
+                      />
+                  </div>
+
+                  <div
+                    class="audioCard word57 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 225px;
+                      top: 40px;
+                      width: 200px;
+                      height: 200px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_57"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../../../newSlides/imgs-unit9/page2-2.PNG"
+                      alt=""
+                      height="200px"
+                      />
+                  </div>
+
+                  <div
+                    class="audioCard word58 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 425px;
+                      top: 40px;
+                      width: 200px;
+                      height: 200px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_58"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../../../newSlides/imgs-unit9/page2-3.PNG"
+                      alt=""
+                      height="200px"
+                      />
+                  </div>
+
+                  <div
+                    class="audioCard word59 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 650px;
+                      top: 40px;
+                      width: 200px;
+                      height: 200px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_59"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../../../newSlides/imgs-unit9/page2-4.PNG"
+                      alt=""
+                      height="200px"
+                      />
+                  </div>
+
+                  <div
+                    class="audioCard word59 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 50px;
+                      top: 270px;
+                      width: 200px;
+                      height: 200px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_59"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../../../newSlides/imgs-unit9/page2-5.PNG"
+                      alt=""
+                      height="200px"
+                      />
+                  </div>
+
+                  <div
+                    class="audioCard word60 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 300px;
+                      top: 270px;
+                      width: 200px;
+                      height: 200px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_60"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../../../newSlides/imgs-unit9/page2-6.PNG"
+                      alt=""
+                      height="200px"
+                      />
+                  </div>
+
+                  <div
+                    class="audioCard word61 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 550px;
+                      top: 270px;
+                      width: 200px;
+                      height: 200px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_61"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../../../newSlides/imgs-unit9/page2-7.PNG"
+                      alt=""
+                      height="200px"
+                      />
+                  </div>
+                </div>
+              </div>
+
+              
+              <div class="slide">
+                <div
+                  class="activityHeading"
+                  style="
+                    /* color: #162f79; */
+                    font-family: KGSecondChancesSolid;
+                    left: 50px;
+                  "
+                >
+                  Regarde et ecoute.
+                  <div
+                    class="audioCard word30"
+                    style="
+                      width: 50px;
+                      height: 50px;
+                      /* border: #162f79 solid 1px; */
+                      left: 245px;
+                      position: absolute;
+                      top: -10;
+                      z-index: 1;
+                    "
+                  >
+                    <audio
+                      id="audioClip_30"
+                      src="audios/SlideOne/ee02 Track 2-[AudioTrimmer.com].mp3"
+                      preload="auto"
+                    ></audio>
+                  </div>
+
+                  <div class="bookTitle" data-audio="./audios/Track1.mp3">
+                    <div
+                      class="audioIcon off"
+                      data-starttime="0"
+                      data-endtime="7.5"
+                      style="cursor: pointer; left: 250px; top: 20px"
+                    ></div>
+                  </div>
+                </div>
+                <div
+                  class="imageHolder"
+                  style="position: absolute; left: 85px; top: 50px"
+                >
+                  <div
+                    class="audioCard word56 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 70px;
+                      top: 40px;
+                      width: 200px;
+                      height: 200px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_56"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../../../newSlides/imgs-unit9/page3-1.PNG"
+                      alt=""
+                      height="200px"
+                      />
+                  </div>
+
+                  <div
+                    class="audioCard word57 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 320px;
+                      top: 40px;
+                      width: 200px;
+                      height: 200px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_57"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../../../newSlides/imgs-unit9/page3-2.PNG"
+                      alt=""
+                      height="200px"
+                      />
+                  </div>
+
+                  <div
+                    class="audioCard word58 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 570px;
+                      top: 40px;
+                      width: 200px;
+                      height: 200px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_58"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../../../newSlides/imgs-unit9/page3-3.PNG"
+                      alt=""
+                      height="200px"
+                      />
+                  </div>
+
+                  <div
+                    class="audioCard word59 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: -20px;
+                      top: 270px;
+                      width: 200px;
+                      height: 200px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_59"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../../../newSlides/imgs-unit9/page3-4.PNG"
+                      alt=""
+                      height="200px"
+                      />
+                  </div>
+
+                  <div
+                    class="audioCard word59 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 200px;
+                      top: 270px;
+                      width: 200px;
+                      height: 200px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_59"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../../../newSlides/imgs-unit9/page3-5.PNG"
+                      alt=""
+                      height="200px"
+                      />
+                  </div>
+
+                  <div
+                    class="audioCard word60 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 450px;
+                      top: 270px;
+                      width: 200px;
+                      height: 200px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_60"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../../../newSlides/imgs-unit9/page3-6.PNG"
+                      alt=""
+                      height="200px"
+                      />
+                  </div>
+
+                  <div
+                    class="audioCard word61 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 670px;
+                      top: 270px;
+                      width: 200px;
+                      height: 200px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_61"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../../../newSlides/imgs-unit9/page3-7.PNG"
+                      alt=""
+                      height="200px"
+                      />
+                  </div>
+                </div>
+              </div>
+
+              <div class="slide">
+                <div
+                  class="activityHeading"
+                  style="
+                    /* color: #162f79; */
+                    font-family: KGSecondChancesSolid;
+                    left: 50px;
+                  "
+                >
+                  Regarde et ecoute.
+                  <div
+                    class="audioCard word30"
+                    style="
+                      width: 50px;
+                      height: 50px;
+                      /* border: #162f79 solid 1px; */
+                      left: 245px;
+                      position: absolute;
+                      top: -10;
+                      z-index: 1;
+                    "
+                  >
+                    <audio
+                      id="audioClip_30"
+                      src="audios/SlideOne/ee02 Track 2-[AudioTrimmer.com].mp3"
+                      preload="auto"
+                    ></audio>
+                  </div>
+
+                  <div class="bookTitle" data-audio="./audios/Track1.mp3">
+                    <div
+                      class="audioIcon off"
+                      data-starttime="0"
+                      data-endtime="7.5"
+                      style="cursor: pointer; left: 250px; top: 20px"
+                    ></div>
+                  </div>
+                </div>
+                <div
+                  class="imageHolder"
+                  style="position: absolute; left: 100px; top: 50px"
+                >
+
+                  <div
+                  class="audioCard word56 scaleUp "
+                  style="
+                    /* border: #162f79 solid 1px; */
+                    position: absolute;
+                    z-index: 1;
+                    left: 200px;
+                    top: 40px;
+                    width: 450px;
+                    height: 50px;
+                  "
+                  >
+                    <audio
+                      id="audioClip_56"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../../../newSlides/imgs-unit9/page4-1.PNG"
+                      alt=""
+                      height="50px"
+                      />
+                  </div>
+
+                  <div
+                  class="audioCard word56 scaleUp "
+                  style="
+                    /* border: #162f79 solid 1px; */
+                    position: absolute;
+                    z-index: 1;
+                    left: 200px;
+                    top: 100px;
+                    width: 450px;
+                    height: 50px;
+                  "
+                  >
+                    <audio
+                      id="audioClip_56"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../../../newSlides/imgs-unit9/page4-2.PNG"
+                      alt=""
+                      height="50px"
+                      />
+                  </div>
+                  
+                  <div
+                    class="audioCard word56 scaleUp "
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 50px;
+                      top: 175px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_56"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../../../newSlides/imgs-unit9/page4-3.PNG"
+                      alt=""
+                      height="150px"
+                      />
+                  </div>
+
+                  <div
+                    class="audioCard word56 scaleUp "
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 313px;
+                      top: 175px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_56"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../../../newSlides/imgs-unit9/page4-4.PNG"
+                      alt=""
+                      height="150px"
+                      />
+                  </div>
+
+                  <div
+                    class="audioCard word58 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 575px;
+                      top: 175px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_58"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../../../newSlides/imgs-unit9/page4-5.PNG"
+                      alt=""
+                      height="150px"
+                      />
+                  </div>
+
+                  <div
+                    class="audioCard word59 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 50px;
+                      top: 350px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_59"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../../../newSlides/imgs-unit9/page4-6.PNG"
+                      alt=""
+                      height="150px"
+                      />
+                  </div>
+
+                  <div
+                    class="audioCard word59 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 313px;
+                      top: 350px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_59"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../../../newSlides/imgs-unit9/page4-7.PNG"
+                      alt=""
+                      height="150px"
+                      />
+                  </div>
+
+                  <div
+                    class="audioCard word61 scaleUp"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 575px;
+                      top: 350px;
+                      width: 200px;
+                      height: 150px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_61"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 4/Salut !Ça va.mp3"
+                      preload="auto"
+                    >
+                    </audio>
+                    <img
+                      src="../../../newSlides/imgs-unit9/page4-8.PNG"
+                      alt=""
+                      height="150px"
+                      />
+                  </div>
+                </div>
+              </div>
+
+              
+              <div class="slide">
+                <div
+                  class="activityHeading"
+                  style="
+                    /* color: #162f79; */
+                    font-family: KGSecondChancesSolid;
+                    left: 50px;
+                  "
+                >
+                  Regarde et ecoute.
+                  <div
+                    class="audioCard word30"
+                    style="
+                      width: 50px;
+                      height: 50px;
+                      /* border: #162f79 solid 1px; */
+                      left: 245px;
+                      position: absolute;
+                      top: -10;
+                      z-index: 1;
+                    "
+                  >
+                    <audio
+                      id="audioClip_30"
+                      src="audios/SlideOne/ee02 Track 2-[AudioTrimmer.com].mp3"
+                      preload="auto"
+                    ></audio>
+                  </div>
+
+                  <div class="bookTitle" data-audio="./audios/Track1.mp3">
+                    <div
+                      class="audioIcon off"
+                      data-starttime="0"
+                      data-endtime="7.5"
+                      style="cursor: pointer; left: 250px; top: 20px"
+                    ></div>
+                  </div>
+                </div>
+
+                <div
+                  class="imageHolder"
+                  style="position: absolute; left: 300px; top: 55px"
+                >
+                  <img
+                    src="../../../newSlides/imgs-unit9/page5.PNG"
+                    alt=""
+                    height="520px"
+                  />
+
+                </div>
+              </div>
+
+              
+              <div class="slide">
+                <div
+                  class="activityHeading"
+                  style="
+                    /* color: #162f79; */
+                    font-family: KGSecondChancesSolid;
+                    left: 50px;
+                  "
+                >
+                  Regarde et ecoute.
+                  <div
+                    class="audioCard word30"
+                    style="
+                      width: 50px;
+                      height: 50px;
+                      /* border: #162f79 solid 1px; */
+                      left: 245px;
+                      position: absolute;
+                      top: -10;
+                      z-index: 1;
+                    "
+                  >
+                    <audio
+                      id="audioClip_30"
+                      src="audios/SlideOne/ee02 Track 2-[AudioTrimmer.com].mp3"
+                      preload="auto"
+                    ></audio>
+                  </div>
+
+                  <div class="bookTitle" data-audio="./audios/Track1.mp3">
+                    <div
+                      class="audioIcon off"
+                      data-starttime="0"
+                      data-endtime="7.5"
+                      style="cursor: pointer; left: 250px; top: 20px"
+                    ></div>
+                  </div>
+                </div>
+                <div
+                  class="imageHolder"
+                  style="position: absolute; left: 225px; top: 55px"
+                >
+                  <img
+                    src="../../../newSlides/imgs-unit9/page6.PNG"
+                    alt=""
+                    height="520px"
+                  />
+
+                  <div
+                    class="audioCard word58"
+                    style="
+                      /* border: #162f79 solid 1px; */
+                      position: absolute;
+                      z-index: 1;
+                      left: 150px;
+                      top: 0px;
+                      width: 23px;
+                      height: 23px;
+                      background-image: url(../../../newSlides/headset.PNG);
+                      background-size: cover;
+                      border-radius: 5px;
+                    "
+                  >
+                    <audio
+                      id="audioClip_58"
+                      src="../../../MyAudios/Unit 1/Page 7-9/Scene 3/RERECORD- Bonjour madame! Comment allez-vous.mp3"
+                      preload="auto"
+                    ></audio>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <footer
+          style="
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 1024px;
+            height: 80px;
+            z-index: 1;
+            background-image: url('./images/footer/footerBackGround.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+          "
+        >
+          <div>
+           
+          </div>
+          <div class="nextBtn" style="top: 10px"></div>
+          <div class="backBtn disabled" style="top: 10px"></div>
+          <div
+            class="reading1Btn"
+            style="
+              position: absolute;
+              left: 30px;
+              top: 15px;
+              cursor: pointer;
+              width: 100px;
+              height: 50px;
+            "
+          >
+            <img
+              src="./images/footer/book-1.png"
+              alt=""
+              style="width: 100%; height: 100%; object-fit: contain"
+            />
+          </div>
+          <div
+            class="reading2Btn"
+            style="
+              position: absolute;
+              left: 135px;
+              top: 15px;
+              cursor: pointer;
+              width: 100px;
+              height: 50px;
+            "
+          >
+            <img
+              src="./images/footer/book-2.png"
+              alt=""
+              style="width: 100%; height: 100%; object-fit: contain"
+            />
+          </div>
+
+        </footer>
+      </div>
+    </div>
+
+    <audio id="audioClip_1" src="audios/Track1.mp3" preload="auto"></audio>
+    <script src="./js/activities.js"></script>
+    <script src="./js/audioControls.js" type="text/javascript"></script>
+    <script src="./js/main.js" type="text/javascript"></script>
+    <script src="./js/snapshot.js"></script>
+  </body>
+</html>

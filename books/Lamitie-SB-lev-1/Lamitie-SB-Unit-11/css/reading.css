@@ -1,0 +1,83 @@
+body {
+  background: #ffffff;
+  /* user-select: none; */
+  overflow: visible;
+}
+
+.backBtn {
+  position: absolute;
+  left: 450px;
+  top: 620px;
+  width: 52px;
+  height: 50px;
+  background-image: url("../images/footer/left.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.nextBtn {
+  position: absolute;
+  left: 520px;
+  top: 620px;
+  width: 52px;
+  height: 50px;
+  background-image: url("../images/footer/right.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+.slides {
+  position: absolute;
+  left: 0px;
+  top: 120px;
+  width: 1024px;
+  height: 600px;
+  text-align: center;
+}
+.slide {
+  display: none;
+}
+.imageHolder {
+  height: 400px;
+}
+.contentHolder {
+  padding-top: 25px;
+  font-family: Arcon;
+  font-size: 38px;
+  letter-spacing: 1px;
+}
+.audioIcon {
+  position: absolute;
+  left: 300px;
+  margin-top: -25px;
+  width: 41px;
+  height: 40px;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+.audioIcon.off {
+  background-image: url("../images/sound_off_btn.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.audioIcon.on {
+  background-image: url("../images/sound_on_btn.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Go My Scaling */
+
+.scaleUp {
+  transition: all 0.2s ease-in-out;
+}
+
+.scaleUp:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}

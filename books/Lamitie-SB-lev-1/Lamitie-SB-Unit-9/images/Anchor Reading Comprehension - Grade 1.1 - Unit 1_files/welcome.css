@@ -1,0 +1,239 @@
+body {
+    background: transparent;
+    /* user-select: none; */
+    overflow: visible;
+}
+.highlightsIcon {
+    position: absolute;
+    left: 20px;
+    top: 100px;
+    background-image: url('../images/highlights_icon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 108px;
+    height: 45px;
+}
+/* Active Prior Knowledge*/
+
+.apkPanel {
+    position: absolute;
+    left: 35px;
+    top: 160px;
+    width: 500px;
+    height: 286px;
+    background-image: url('../images/activePriorKnow_bg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: none;
+}
+
+
+
+.apkIcon {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 90px;
+    height: 50px;
+    background-image: url('../images/ccss_btn.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.apkClose {
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    background-color: #ffffff;
+    padding: 8px 10px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px #000000;
+    width: 10px;
+    height: 14px;
+    text-align: center;
+    cursor: pointer;
+}
+.apkBtn {
+    position: absolute;
+    left: 50px;
+    top: 160px;
+    background-image: url('../images/welcome_question_icon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.apkItems {
+    position: absolute;
+    left: 67px;
+    top: 66px;
+    padding: 5px;
+}
+
+.apkItem {
+    font-family: Arcon;
+    font-size: 25px;
+    color: rgb(15, 137, 202);
+    padding: 2px 0px;
+}
+
+
+/*End*/
+.ccssBtn{
+    position: absolute;
+    left: 900px;
+    top: 500px;
+    background-image: url('../images/ccss_btn.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 60px;
+    cursor: pointer;
+}
+.ccssPanel, .readhighlightsPanel{
+    position: absolute;
+    left: 490px;
+    top: 250px;
+    width: 500px;
+    height: 340px;
+    background-color: #d3d3d3;
+    display: none;
+}
+.ccssPanelHead{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 500px;
+    height: 60px;
+    background-color: #0f89ca;
+    
+}
+.ccssIcon{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 90px;
+    height: 50px;
+    background-image: url('../images/ccss_btn.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.ccssClose{
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    background-color: #ffffff;
+    padding: 8px 10px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px #000000;
+    width: 10px;
+    height: 14px;
+    text-align: center;
+    cursor: pointer;
+}
+.ccssItems{
+    position: absolute;
+    left: 0;
+    top: 60px;
+    padding: 5px;
+}
+.ccssItem{
+    font-family: Arcon;
+    font-size: 18px;
+    color: rgb(15, 137, 202);
+    padding: 2px 0px;
+}
+.ccssItemRed{
+    color: rgb(210, 35, 42);
+}
+
+.readHighlightsPanel{ 
+    position: absolute;
+    left: 314px;
+    top: 537px;
+    width: 410px;
+    height: 134px;
+    z-index: 1;    
+    background-color: #ffffff;
+    border: 1px solid #0f89ca;
+    display: none;
+}
+.readHighlightsBtn{
+    border-radius: 51%;
+}
+.readHighlightsBtn:hover{    
+    box-shadow: 0 0 15px #0f6b75;
+}
+.readHighlightsHead{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 410px;
+    height: 50px;
+    background-color: #0f89ca;
+}
+.readHighlightsTitle{
+    position: absolute;
+    left: 10px;
+    font-family: Arcon;
+    font-size: 24px;
+    color: black;
+    letter-spacing: 1px;
+    top: 10px;
+    font-weight: bold;
+    text-align: left;
+}
+.readHighlightsBody{
+    position: absolute;
+    top: 66px;
+    padding: 5px;
+    font-family: Arcon;
+    font-size: 18px;
+    color: black;    
+}
+.ccssIcon{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 90px;
+    height: 50px;
+    background-image: url('../images/ccss_btn.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.readHighlightsClose{
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    background-color: #ffffff;
+    padding: 8px 10px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px #000000;
+    width: 10px;
+    height: 14px;
+    text-align: center;
+    cursor: pointer;
+}
+.audioIcon{
+    position: absolute;
+    left: 35px;
+    top: 160px;    
+    width: 83px;
+    height: 80px;
+	-webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.audioIcon.off{
+    background-image: url('../images/sound_off_btn.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor:pointer;
+}
+.audioIcon.on{
+    background-image: url('../images/sound_on_btn.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+

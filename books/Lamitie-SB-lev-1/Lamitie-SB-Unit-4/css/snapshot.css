@@ -1,0 +1,134 @@
+body {
+  background: transparent;
+  /* user-select: none; */
+  overflow: visible;
+}
+
+.word1 {
+  position: absolute;
+  left: 150px;
+  top: 200px;
+  width: 129px;
+  height: 146px;
+  background-image: url("../images/pages/snapshots/word1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.word2 {
+  position: absolute;
+  left: 420px;
+  top: 200px;
+  width: 137px;
+  height: 146px;
+  background-image: url("../images/pages/snapshots/word2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.word3 {
+  position: absolute;
+  left: 700px;
+  top: 200px;
+  width: 136px;
+  height: 146px;
+  background-image: url("../images/pages/snapshots/word3.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.word4 {
+  position: absolute;
+  left: 275px;
+  top: 400px;
+  width: 143px;
+  height: 146px;
+  background-image: url("../images/pages/snapshots/word4.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.word5 {
+  position: absolute;
+  left: 550px;
+  top: 400px;
+  width: 125px;
+  height: 146px;
+  background-image: url("../images/pages/snapshots/word5.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.word {
+  position: absolute;
+  font-family: Arcon;
+  font-size: 32px;
+  color: rgb(36, 64, 143);
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+/* What I Want to know*/
+
+.wiwtkPanel {
+  position: absolute;
+  left: 490px;
+  top: 375px;
+  width: 500px;
+  height: 245px;
+  background-image: url("../images/WhatIWantToKnow.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 50;
+  display: none;
+}
+
+.wiwtkIcon {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 90px;
+  height: 50px;
+  background-image: url("../images/ccss_btn.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.wiwtkClose {
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  background-color: #ffffff;
+  padding: 8px 10px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px #000000;
+  width: 10px;
+  height: 14px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.wiwtkBtn {
+  position: absolute;
+  left: 900px;
+  top: 500px;
+  background-image: url("../images/snapshot_question_icon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+}
+
+.wiwtkItems {
+  position: absolute;
+  left: 60px;
+  top: 45px;
+  padding: 5px;
+}
+
+.wiwtkItem {
+  font-family: Arcon;
+  font-size: 25px;
+  padding: 2px 0px;
+}
+/*End*/
